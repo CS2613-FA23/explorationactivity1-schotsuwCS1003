@@ -21,6 +21,8 @@ log(chalk.green('Welcome to the program'));
 ````
 
 - Chalk supports 256 colors and Truecolor (16 million colors) Here is an example of applying some colors.
+
+````
 log(chalk.green('Welcome to the program'));
 log(chalk.red('Welcome to the program'));
 log(chalk.yellow('Welcome to the program'));
@@ -28,14 +30,20 @@ log(chalk.cyanBright('Welcome to the program'));
 log(chalk.grey('Welcome to the program'));
 log(chalk.blue('Welcome to the program'));
 log(chalk.blueBright('Welcome to the program'));
+````
 
 - Assigning a color code into chalk.hex(<color code>).
+
+````
 const p = chalk.bold.hex('#FF00FF');
 const o = chalk.hex('#FFA500'); // Orange color
 console.log(p('This is pink!'));
 console.log(o('Time for orange!'));
+````
 
 - Chain and nest the styles to improve the console readability.
+
+````
 const log = console.log;
 
 //Combine styled and normal strings
@@ -62,7 +70,8 @@ log(chalk.bgHex('#DEADED').underline('Hello, world!'));
 
 //chalk also supports RGB colors level.
 log(chalk.rgb(123, 45, 67).underline.bold('BAD DAY'));
-
+``![explore2613](https://github.com/CS2613-FA23/explorationactivity1-schotsuwCS1003/assets/97477021/4ccdbcf1-a349-4b5b-9482-8397c488fb22)
+``
 
 
 
