@@ -2,11 +2,11 @@
 - Chalk library JavaScript
 
 2. What is the package/library?
-- The "chalk" package in JavaScript is a library used for adding color and styling to text output in the console. Many developers find it helpful when working with the command-line interface or when expessing messages to the console. It's commonly used in Node.js applications to make console output more visually appealing and easier to read!
+- The "chalk" package in JavaScript is a library used for adding color and styling to text output in the console. Many developers find it helpful when working with the command-line interface or when expessing messages to the console. It's commonly used in Node.js applications to make console output more visually appealing and easier to read! [1]
  
 3. What are the functionalities of the package/library?
   
---> Start by importing the chalk library and then call green function to colorize the green color to our output! 
+--> Start by importing the chalk library and then call green function to colorize the green color to our output! [1]
 
 ````
 import chalk from 'chalk';
@@ -14,7 +14,7 @@ const log = console.log;
 log(chalk.green('Welcome to the program'));
 ````
 
---> Not only just green, but Chalk also supports 256 colors and Truecolor (16 million colors) on supported terminal apps! Here is an example of applying some colors.
+--> Not only just green, but Chalk also supports 256 colors and Truecolor (16 million colors) on supported terminal apps! Here is an example of applying some colors. [1]
 
 ````
 log(chalk.green('Welcome to the program'));
@@ -26,7 +26,7 @@ log(chalk.blue('Welcome to the program'));
 log(chalk.blueBright('Welcome to the program'));
 ````
 
---> You can also design your own color by assigning a color code into chalk.hex(<color code>).
+--> You can also design your own color by assigning a color code into chalk.hex(<color code>). [1]
 
 ````
 const p = chalk.bold.hex('#FF00FF');
@@ -35,7 +35,7 @@ console.log(p('This is pink!'));
 console.log(o('Time for orange!'));
 ````
 
---> Interestingly, you can just chain and nest the styles as you want, to improve your program readability by your own creativity!
+--> Interestingly, you can just chain and nest the styles as you want, to improve your program readability by your own creativity! [1]
 
 ````
 const log = console.log;
@@ -67,7 +67,7 @@ log(chalk.rgb(123, 45, 67).underline.bold('BAD DAY'));
 ````
 
 4. When was it created?
-- This library was created on Feb 23, 2015.
+- This library was created on Feb 23, 2015. [1]
 
 5. Why did you select this package/library? 
 - Because this library is very simple to use and it allows us to applying our creativity with its supporting tools like APIs, colors, and styles.
@@ -84,3 +84,9 @@ It was very easy to use: chalk provides a simple API for applying various text s
 
 • Would you continue using this package/library? 
 - I would not continue to use it. Though the Chalk package is fun and very simple to use, it is not actually useful in reality of programming. If I actually want to design the output to be more fun and friendly, I would use HTML collaborating with JavaScript or other means to show more aesthetically interesting output. And most of the user does not focus much of the colorful terminal text, I would therefore try to find other interesting library to use.
+
+References:
+[1] https://github.com/chalk/chalk
+[2] https://www.geeksforgeeks.org/node-js-chalk-module/
+
+
