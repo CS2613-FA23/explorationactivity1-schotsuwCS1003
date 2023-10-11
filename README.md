@@ -1,4 +1,3 @@
-![color](https://github.com/CS2613-FA23/explorationactivity1-schotsuwCS1003/assets/97477021/8aa49cf0-04b8-4415-9cf4-db7bbe7021e5)
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/oB7VDeFN)
 # ExplorationActivity1
 1. Which package/library does the sample program demonstrate?
