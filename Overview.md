@@ -1,6 +1,6 @@
 1. Which package/library did you select?
 - Chalk library JavaScript
-  
+
 2. What is the package/library?
 - The "chalk" package in JavaScript is a library used for adding color and styling to text output in the console. It's commonly used in Node.js applications to make console output more visually appealing and easier to read. It is very usedful when it comes to create some appealing colorful texts!
  
