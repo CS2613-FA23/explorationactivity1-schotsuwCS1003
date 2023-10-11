@@ -76,7 +76,7 @@ log(chalk.rgb(123, 45, 67).underline.bold('BAD DAY'));
 - Learning this package allows me to explore more in the world of programming. This helps us to save some time to program and apply our ability to create something new and interesting. For this chalk library, it provided me a basic understading of how to call and apply each chalk function so that the output texts draw attention from the users. 
 
 7. How was your overall experience with the package/library?
-- With this creative library coming with multiple functions, it was a fun path to design a colorful console texts with just coding a very simple syntax.
+- With this creative library coming with multiple functions, it was a fun path of designing a colorful console texts with just coding a very simple syntax.
 It was very easy to use: chalk provides a simple API for applying various text styles. I could easily set the text color, background color, text styles (bold, italic, underline), and more using method chaining.
 
 • When would you recommend this package/library to someone?
