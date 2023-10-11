@@ -70,8 +70,10 @@ log(chalk.bgHex('#DEADED').underline('Hello, world!'));
 
 //chalk also supports RGB colors level.
 log(chalk.rgb(123, 45, 67).underline.bold('BAD DAY'));
-``![explore2613](https://github.com/CS2613-FA23/explorationactivity1-schotsuwCS1003/assets/97477021/4ccdbcf1-a349-4b5b-9482-8397c488fb22)
-``
+````
+
+![explore2613](https://github.com/CS2613-FA23/explorationactivity1-schotsuwCS1003/assets/97477021/4ccdbcf1-a349-4b5b-9482-8397c488fb22)
+
 
 
 
