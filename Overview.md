@@ -14,9 +14,6 @@ const log = console.log;
 log(chalk.green('Welcome to the program'));
 
 
-![image](https://github.com/CS2613-FA23/explorationactivity1-schotsuwCS1003/assets/97477021/9b0c48ca-212e-4957-8923-6bdbe2cc7667)
-
-
 --> Not only just green, but Chalk also supports 256 colors and Truecolor (16 million colors) on supported terminal apps! Here is an example of applying some colors.
 
 
