@@ -8,15 +8,15 @@
   
 --> Start by importing the chalk library and then call green function to colorize the green color to our output! 
 
-############################################################################################
+#######################################################
 import chalk from 'chalk';
 const log = console.log;
 log(chalk.green('Welcome to the program'));
-############################################################################################
+#######################################################
 
 --> Not only just green, but Chalk also supports 256 colors and Truecolor (16 million colors) on supported terminal apps! Here is an example of applying some colors.
 
-############################################################################################
+######################################################
 log(chalk.green('Welcome to the program'));
 log(chalk.red('Welcome to the program'));
 log(chalk.yellow('Welcome to the program'));
@@ -24,21 +24,20 @@ log(chalk.cyanBright('Welcome to the program'));
 log(chalk.grey('Welcome to the program'));
 log(chalk.blue('Welcome to the program'));
 log(chalk.blueBright('Welcome to the program'));
-############################################################################################
-
+#######################################################
 
 --> You can also design your own color by assigning a color code into chalk.hex(<color code>).
 
-############################################################################################
+#######################################################
 const p = chalk.bold.hex('#FF00FF');
 const o = chalk.hex('#FFA500'); // Orange color
 console.log(p('This is pink!'));
 console.log(o('Time for orange!'));
-############################################################################################
+#######################################################
 
 --> Interestingly, you can just chain and nest the styles as you want, to improve your program readability by your own creativity!
 
-############################################################################################
+######################################################
 const log = console.log;
 
 //Combine styled and normal strings
@@ -65,7 +64,7 @@ log(chalk.bgHex('#DEADED').underline('Hello, world!'));
 
 //chalk also supports RGB colors level.
 log(chalk.rgb(123, 45, 67).underline.bold('BAD DAY'));
-############################################################################################
+##########################################################
 
 4. When was it created?
 - This library was created on Feb 23, 2015.
