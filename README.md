@@ -5,12 +5,20 @@
 - Chalk library JavaScript.
   
 2. How does someone run your program?
-- The user install the library from npm by typing "npm install chalk" in the terminal.
-- Then the user import the chalk library by typing "import chalk from 'chalk';" in the programs.
-- Once done with designing, the user can run in the terminal by typing node filename.js
-  
+- The users install the library from npm by typing "npm install chalk" in the terminal.
+````
+npm install chalk
+````
+- Then, the users import the chalk library by typing "import chalk from 'chalk';" in the programs.
+````
+import chalk from 'chalk';
+````
+- Once done with designing, the users can run in the terminal by typing node <filename>.js
+````
+node <filename>.js
+````
 3. What purpose does your program serve?
-- This library comes with multiple purposes. It friendly represents the colorful texts. It supports multiple colors and API functions. It provides extensive support for different color options and an array of API functions, enabling users to meticulously design their text outputs or themes within Node.js projects. The chalk module is a third-party library that can be used for customizing of texts. Not only it provides visual aesthetics, but it also aids in the prompt of warnings and errors for improved readability.
+- This library comes with multiple purposes. It friendly represents the colorful texts. It provides extensive support for different color options and an array of API functions, enabling users to meticulously design their text outputs or themes within Node.js projects. The chalk module is a third-party library that can be used for customizing of texts. Not only it provides visual aesthetics, but it also aids in the prompt of warnings and errors for improved readability.
 
 4. What would be some sample input/output?
 
